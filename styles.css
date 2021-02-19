@@ -1,0 +1,231 @@
+      * {
+        margin:0px;
+        padding:0px;
+      }
+
+      #superior {
+        width: 100vw;
+        height: 100px;
+        background: #000000; 
+      }
+
+      #header {
+        margin:auto;
+        width:528px;
+        font-family:Arial, Helvetica, sans-serif;
+      }
+      
+      ul {
+        list-style:none;
+      }
+      
+      .nav > li {
+        float:left;
+      }
+
+      .nav li a {
+        background-color:#000;
+        color:#fff;
+        text-decoration:none;
+        padding:16px 16px;
+        display:block;
+      }
+
+      .nav li a span{
+        font-size: 18px;
+      }
+      
+      .nav li a:hover {
+        text-decoration: underline;
+      }
+
+      .nav li ul {
+        z-index: 1;
+        display:none;
+        position:absolute;
+        min-width:140px;
+        color: #F4F4F4;
+      }
+      
+      .nav li:hover > ul {
+        display:block;
+      }
+      
+      .nav li ul li {
+        position:relative;
+      }
+      
+      .nav li ul li ul {
+        right:-110px;
+        top:0px;
+      }
+
+      #imgCont {
+        z-index: 0;
+        display: flex;
+        width: 100%;
+        max-width: 1400px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: auto;
+      }
+
+      .imgResponsive img{
+        width: 345px;
+        height: 260px;
+        margin-bottom: 70px;
+        object-fit: cover;
+        filter: brightness(90%);
+        border-radius: 80px;
+      }
+
+      .imgResponsive img:hover {
+        filter: brightness(100%);
+      }
+
+      .imgResponsive .logoCoches img{
+        width: 100px;
+        height: 70px;
+        float: left;
+        margin-left: 125px;
+        margin-bottom: 8px;
+        filter: brightness(100%);
+        object-fit: cover;
+      }
+
+      #inferior {
+        box-sizing: border-box;
+        background: #fcfcfc;
+      }
+
+      footer {
+        background: #111;
+        height: auto;
+        width: 100vw;
+        font font-family: "Open Sans";
+        padding-top: 40px;
+        color: #fff;
+      }
+
+      .footer-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .footer-content h1 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        text-transform: capitalize;
+        line-height: 3rem;
+      }
+
+      .footer-content p {
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+      }
+
+      .redesSociales {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+      }
+
+      .redesSociales li{
+        margin: 0 10px;
+      }
+
+      .redesSociales a{
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .redesSociales a i{
+        font-size: 1.1rem;
+      }
+
+      .footer-bottom {
+        background: #000;
+        width: 100vw;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      .footer-bottom p {
+        font-size: 14px;
+        word-spacing: 2px;
+        text-transform: capitalize;
+      }
+
+      .footer-bottom span {
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
+      }
+
+      #form-auto{
+        margin-left: 25%;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+      }
+
+      #form-auto div{
+        text-align: left;
+      }
+
+      #centroUser {
+        background-image: url("src/GarajeFondo.jpg");
+        background-color: transparent;
+        background-size: 100% 100%;
+        object-fit: cover; 
+      }
+
+      .iconHist{
+        text-align: center;
+      }
+
+      .iconHist img{
+        width: 500px;
+        height: 500px;
+        object-fit: cover;  
+      }
+
+      #centroNoticias {
+        z-index: 0;
+        width: 95%;
+        max-width: 1200px;
+        margin: auto;
+        overflow: hidden;
+      }
+
+      #player {
+        float: left;
+      }
+
+      .imgNoticias1 img{
+        width: 42%;
+        height: 390px;
+        object-fit: cover;
+        float: left;
+      }
+
+      .imgNoticias2 img{
+        width: 58%;
+        height: 390px;
+        object-fit: cover;
+        float: left;
+      }
+
+      .imgNoticias3 img{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        float: left;
+      }
